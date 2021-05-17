@@ -80,7 +80,7 @@ ITEM_PIPELINES = {
    'stock_test.pipelines.StockTestPipeline': 300,
 }
 
-SQL_CONNECT_STRING = f'mysql+pymysql://root:{os.environ.get("DB_PRV_ROOT_PASS")}@localhost:3308/stocks'
+SQL_CONNECT_STRING = f'mysql+pymysql://root:{os.environ.get("DB_PRV_ROOT_PASS")}@localhost:3306/stocks'
 SQL_DB_NAME = 'stocks'
 # MONGO_URI= 'mongodb://root:password@localhost:27017/'
 # MONGO_DATABASE='abstracts'
